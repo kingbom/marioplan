@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Browserrouter}  from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-         <h1>MarioPlan</h1>
-      </div>
+      <Browserrouter>
+        <div className="App">
+          <h1>MarioPlan</h1>
+        </div>
+      </Browserrouter>
     );
   }
 }
